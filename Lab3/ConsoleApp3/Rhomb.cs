@@ -4,10 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace ConsoleApp3
 {
-    class Rhomb : Figures
+    public class Rhomb : Figures
     {
+        public Rhomb()
+        {
+            colour = "white";
+        }
+
         public override void Draw()
         {
             Console.WriteLine("      *");

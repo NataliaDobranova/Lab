@@ -4,17 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace ConsoleApp3
 {
-    class Triangle: Figures
+    public class Triangle : Figures
     {
+        public Triangle()
+        {
+            colour = "white";
+        }
+
         public override void Draw()
         {
             Console.WriteLine("     *");
             Console.WriteLine("   *   *");
             Console.WriteLine(" *       *");
             Console.WriteLine("************");
-           
+
         }
 
     }

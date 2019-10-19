@@ -4,10 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace ConsoleApp3
 {
-    class Polygon : Figures
+    public class Polygon : Figures
     {
+        public Polygon()
+        {
+            colour = "white";
+        }
+
         public override void Draw()
         {
             Console.WriteLine("      ******");
